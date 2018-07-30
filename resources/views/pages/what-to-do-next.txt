@@ -1,0 +1,24 @@
+This is a document to explain what I would do next with this application.
+I spent ages setting up Laravel and had very little time to learn much about it's features.
+I will admit from what I have seen it is very easy to learn as I have worked with the 
+Symfony framework and I hope to continue this project in the future.
+
+My first priority would be to move my data to an MySQL database and extend it to allow
+for reviews and user accounts. The setup would be a table for attractions, a table for 
+reviews and a table for user accounts. The review table would contain foreign keys to 
+the other two tables to have them linked. The user table would also store whether the 
+account is an admin or not, given more time I would make it permission based.
+
+Next would be to implement the login system. I noticed there are a few login classes already
+in the project so I would work with those as an example/base.
+
+Then I would build the review system to allow users that are logged in to submit reviews or
+edit them. I would also start to rank the attractions on the homepage based on those 
+reviews.
+
+I would add more content to the site as it is very minimal with few styles, possibly 
+even an image carousel on the homepage.
+
+Finally I would go through my code for PSR standards and add PHPUnit tests. It has been a 
+while since I had to do them manually as the IDE I normally work in has all of them set 
+up already as a file watcher.
