@@ -16,11 +16,11 @@
                 </td>
             </tr>
             <tr>
-                @foreach ($data['images'] as $url)
-                    <td class="images">
-                        <img src="{{$url}}" alt="{{$data['name']}}" height="42" width="42">
-                    </td>
-                @endforeach
+                <td class="images">
+                    @foreach ($data['images'] as $url)
+                        <img src="{{$url}}" alt="{{$data['name']}}" height="200" width="200">
+                    @endforeach
+                </td>
             </tr>
             <tr>
                 <td class="description">
